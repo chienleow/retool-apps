@@ -1,4 +1,14 @@
 {
+  "button1": {
+    "row": 12.2,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "image1": {
+    "row": 12.2,
+    "col": 3
+  },
   "table1": {
     "row": 3,
     "col": 1,
