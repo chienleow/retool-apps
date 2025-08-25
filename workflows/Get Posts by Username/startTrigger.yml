@@ -73,8 +73,8 @@ template:
   notificationDuration: ''
 createdAt: 2025-08-01T01:27:51.929Z
 blockData:
-  top: 48
-  left: 48
+  top: -176
+  left: 64
   uuid: 64358da2-5610-4b5d-bbff-69b52ea655a6
   options: {}
   pluginId: startTrigger

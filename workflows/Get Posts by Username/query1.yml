@@ -1,15 +1,16 @@
 id: query1
 type: datasource
-subtype: RESTQuery
-resourceName: REST-WithoutResource
+subtype: SqlQueryUnified
+resourceName: '[demo resource] BigQuery'
+resourceDisplayName: BigQuery
 template:
   queryRefreshTime: ''
-  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
-  body: ''
+  records: ''
   lastReceivedFromResourceAt: null
   isFunction: false
+  databasePasswordOverride: ''
   functionParameters: null
   queryDisabledMessage: ''
   servedFromCache: false
@@ -20,12 +21,9 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
-  paginationPaginationField: ''
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
-  headers: ''
   showFailureToaster: true
-  paginationEnabled: false
   query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
@@ -35,18 +33,26 @@ template:
   queryRunOnSelectorUpdate: false
   runWhenPageLoadsDelay: ''
   data: null
+  recordId: ''
   importedQueryInputs: {}
+  _additionalScope: []
   isImported: false
   showSuccessToaster: true
+  dataArray: []
   cacheKeyTtl: ''
+  filterBy: ''
   requestSentTimestamp: null
-  cookies: ''
+  databaseHostOverride: ''
   metadata: null
+  editorMode: sql
   queryRunTime: null
+  actionType: ''
   changesetObject: ''
+  shouldUseLegacySql: false
   offlineOptimisticResponse: null
   errorTransformer: return data.error
   finished: null
+  databaseNameOverride: ''
   confirmationMessage: null
   isFetching: false
   changeset: ''
@@ -55,39 +61,43 @@ template:
   resourceTypeOverride: null
   watchedParams: []
   enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
   showLatestVersionUpdatedWarning: false
-  paginationDataField: ''
   timestamp: 0
   evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
-  version: 2
   overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
   runWhenPageLoads: false
   transformer: return data
   events: []
+  tableName: ''
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
-  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
-  bodyType: none
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
 createdAt: 2025-08-01T01:28:30.155Z
 blockData:
-  top: 48
-  left: 448
+  top: -160
+  left: 464
   uuid: 40a0c4bb-c773-4d89-8fb4-ccfac5a18a8f
   pluginId: query1
   blockType: default
-  editorType: RESTQuery
-  resourceName: REST-WithoutResource
+  editorType: SqlQueryUnified
+  resourceName: '[demo resource] BigQuery'
   incomingOnSuccessEdges:
     - 64358da2-5610-4b5d-bbff-69b52ea655a6
