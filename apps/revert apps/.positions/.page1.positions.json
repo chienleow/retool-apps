@@ -1,0 +1,12 @@
+{
+  "image1": {
+    "row": 13,
+    "col": 1
+  },
+  "llmChat2": {
+    "row": 2.4,
+    "col": 1,
+    "height": 9.6,
+    "width": 4
+  }
+}
