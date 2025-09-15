@@ -1,0 +1,1 @@
+setTimeout(() => llmChat2.clearHistory(), 300);
